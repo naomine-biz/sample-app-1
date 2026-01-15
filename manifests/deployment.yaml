@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: sample-app
-          image: 837244241255.dkr.ecr.ap-northeast-1.amazonaws.com/sample-app:latest
+          image: 837244241255.dkr.ecr.ap-northeast-1.amazonaws.com/sample-app:fcc66b4d995b348e8feeefcd734a682260405cc0
           ports:
             - containerPort: 80
           resources:
